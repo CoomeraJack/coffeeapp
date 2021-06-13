@@ -1,0 +1,117 @@
+ 
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dashboard</title>
+  <meta name="description" content="SidebarTest">
+  <meta name="author" content="SitePoint">
+ <link href="css/style.css" type="text/css" rel="stylesheet"/>
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+
+<div class="navigation">
+<ul>
+  <li><a href="logo.html" class="mainlogo">3FE</a></li>
+  <li class="invisible">none</li>
+   <li class="invisible">none</li><li class="invisible">none</li> <li class="invisible">none</li> 
+   <li class="invisible">none</li> 
+   <button class="button1">Search</button>
+ <li class="invisible">none</li> <li class="invisible">none</li> <li class="invisible">none</li> <li class="invisible">none</li> <li class="invisible">none</li> <li class="invisible">none</li><li class="invisible">none</li> <li class="invisible">none</li> <li class="invisible">none</li> <li class="invisible">none</li> 
+
+  <li><a href="shop.html">Shop</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><button class="button2">Log Out</button>
+</ul>
+</div>
+<!--END OF NAVIGATION -->
+
+<!--PROFILE IMAGE AND WELCOME-->
+
+
+<h2>Welcome back, Orlaith</h2>
+
+<!--END PROFILE IMAGE AND WELCOME-->
+
+<!--SIDEBAR--> 
+<div class="sidebar">
+<div class="mainlogo1">3FE</div>
+<img src="images/profile.jpg" alt="Profile picture of a woman" class="profile">
+<div class="sidebarmenu">
+<div>My Account</div>
+<div>My Orders</div>
+<div>History</div>
+<div class="inspi">Weekly Coffee Inspiration</div>
+</div>
+</div>
+
+<div class="body-text">
+</div>
+
+  <p class="hello">Hello, Orlaith</p>
+<p class="videos">Latest Videos</p>
+
+<!--LATEST VIDEOS--> 
+<div class="latestvideos">
+<p class="video"><image src="images/video1.jpg" alt="Espresso Machine" class="photo">
+The Art of Esspresso Making</p>
+<p class="video"><image src="images/video2.jpg" alt="Cafetiere" class="photo">
+Tips for using Cafetiere</p>
+
+<p class="video"><image src="images/video3.jpg" alt="Mocha Pots" class="photo">
+How to take care of your Mocha Pot</p>
+</div>
+<!-- END OF LATEST VIDEOS-->
+
+<!--NEW RECIPES--> 
+
+<div class="block2">
+<p class="recipes">New Recipes</p>
+</div>
+
+<div class="newrecipes">
+  <a href="recipedetail.html">
+<p class="recipe"><image src="images/recipe.jpg" alt="viennese coffee" class="photo1">
+Viennese Coffee</p>
+<p class="recipe"><image src="images/recipe1.jpg" alt="Cafe Latte" class="photo1">
+Creamy Latte</p>
+
+<p class="recipe"><image src="images/recipe2.jpg" alt="Mocha Latte" class="photo1">
+Mocha Latte</p>
+<p class="recipe"><image src="images/recipe5.jpg" alt="Cappuccino" class="photo1">
+Cappuccino</p>
+</a>
+</div>
+<!-- END OF NEW RECIPES-->
+
+<!-- POP UP CHAT WINDOW-->
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
+
+
